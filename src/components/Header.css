@@ -1,0 +1,17 @@
+.nav-link {
+  color: var(--text-light);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: var(--primary-color); /* Change this to your desired hover color */
+}
+
+.nav-link.dark {
+  color: white; /* White for dark mode */
+}
+
+.nav-link.dark:hover {
+  color: var(--primary-color); /* Change this to your desired hover color */
+}
